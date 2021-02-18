@@ -1,11 +1,16 @@
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
+import { FaArrowCircleDown, FaArrowDown } from 'react-icons/fa';
 import '../App.css';
 
 const Main = (props) => {
     return (
         <div className="mainContent">
-            <h1>Hello!</h1>
-            <button className="introBtn">About me</button>
+            <p>Hello</p>
+            <p>I'm Bernadett, passionate about</p>
+            <p>webdesign and front-end development.</p>
+            <p>see more</p>
+            <p className="arrow-icon" style={{listStyleType: 'none'}}><FaArrowCircleDown /></p>
         </div>
     );
 }; 
